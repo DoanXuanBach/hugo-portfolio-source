@@ -24,5 +24,5 @@ Currently studying Software Engineering.
 
 ## Contact
 
-Email: your_email@example.com
+Email: Bachxtx13@gmail.com
 GitHub: https://github.com/DoanXuanBach
