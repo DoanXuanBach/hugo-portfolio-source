@@ -1,10 +1,20 @@
-{{ define "main" }}
-  <main style="max-width:900px;margin:40px auto;font-family:Arial;line-height:1.6;">
-    <nav style="margin-bottom:24px;">
-      <a href="{{ .Site.BaseURL }}">Home</a> |
-      <a href="{{ "posts/about/" | relURL }}">About</a> |
-      <a href="{{ "posts/projects/" | relURL }}">Projects</a>
-    </nav>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Site.Title }}</title>
+</head>
+<body style="max-width: 900px; margin: 40px auto; font-family: Arial, sans-serif; line-height: 1.6;">
+  <nav style="margin-bottom: 24px;">
+    <a href="{{ "/" | relURL }}">Home</a> |
+    <a href="{{ "posts/about/" | relURL }}">About</a> |
+    <a href="{{ "posts/projects/" | relURL }}">Projects</a>
+  </nav>
+
+  <h1>{{ .Title }}</h1>
+  <main>
     {{ .Content }}
   </main>
-{{ end }}
+</body>
+</html>
