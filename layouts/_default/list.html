@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+</head>
+<body style="max-width: 900px; margin: 40px auto; font-family: Arial, sans-serif; line-height: 1.6;">
+  <nav style="margin-bottom: 24px;">
+    <a href="{{ .Site.BaseURL }}">Home</a> |
+    <a href="{{ "posts/about/" | relURL }}">About</a> |
+    <a href="{{ "posts/projects/" | relURL }}">Projects</a>
+  </nav>
+
+  <h1>{{ .Title }}</h1>
+  <ul>
+    {{ range .Pages }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</body>
+</html>

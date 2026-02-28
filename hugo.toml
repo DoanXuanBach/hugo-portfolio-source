@@ -1,0 +1,46 @@
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
+theme = "hugo-story"
+
+## -----------------------------------------------
+## Publish
+## -----------------------------------------------
+
+relativeURLs = "true"
+#canonifyURLs = "true"
+
+# Local
+
+publishDir = "public"
+
+# Remote
+#baseURL = "https://github.com/DoanXuanBach/DoanXuanBach.git"
+#publishDir = "//centos/sites/hugodev/hugostory/"
+
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "section"]
+# googleAnalytics = "your-google-analytics-id"
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+[Params]
+
+[Params.social]
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/posts/about/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/posts/projects/"
+    weight = 20
