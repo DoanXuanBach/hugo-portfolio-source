@@ -23,8 +23,7 @@ publishDir = "public"
 ## -----------------------------------------------
 ## Hugo Built-in Features
 ## -----------------------------------------------
-
-disableKinds = ["taxonomy", "section"]
+disableKinds = ["taxonomy", "section", "RSS"]
 # googleAnalytics = "your-google-analytics-id"
 
 ## -----------------------------------------------
