@@ -43,3 +43,7 @@ disableKinds = ["taxonomy", "section", "RSS"]
     name = "Projects"
     url = "/posts/projects/"
     weight = 20
+   [[menu.main]]
+    name = "Http-lab"
+    url = "/posts/http-lab/"
+    weight = 30
