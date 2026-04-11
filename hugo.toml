@@ -16,7 +16,7 @@ relativeURLs = "true"
 publishDir = "public"
 
 # Remote
-#baseURL = "https://doanxuanbach.github.io/hugo-portfolio-source/"
+baseURL = "https://doanxuanbach.github.io/hugo-portfolio-source/"
 #publishDir = "//centos/sites/hugodev/hugostory/"
 
 
