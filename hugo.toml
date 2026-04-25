@@ -47,3 +47,7 @@ disableKinds = ["taxonomy", "section", "RSS"]
     name = "Http-lab"
     url = "/posts/http-lab/"
     weight = 30
+    [[menu.main]]
+     name = "Webpack Docker"
+     url = "/posts/webpack-docker/"
+     weight = 40
